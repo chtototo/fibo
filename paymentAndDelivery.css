@@ -1,0 +1,66 @@
+.paymentAndDelivery {
+    background-color: #E3ECF5;
+    position: absolute;
+    bottom: 0;
+    left: -10vw;
+    width: 100vw;
+    height: 35vw;
+    padding: 3vw 10vw;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.payment-imageContainer {
+    width: 80px;
+    position: absolute;
+    top: -40%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 1000px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: solid 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-container {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(5,auto);
+    gap: 1vw;
+    height: 70%;
+}
+
+.paymentInfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.map {
+    background-color: #fff;
+    /* height: 15vw;
+    width: 100%; */
+    border-radius: 15px;
+    box-sizing: border-box;
+    grid-row: span 4;
+    grid-column: span 4;
+    height: 100%;
+}
+
+.paymentAndDelivery h3 {
+    text-align: center;
+    margin-bottom: 60px;
+}

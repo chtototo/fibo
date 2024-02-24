@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+header * {
+    display: flex;
+}
+
+header p {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    display: none;
+    width: 70%;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.header-row,
+.deliveryInfo-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-row {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deliveryInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.star {
+    margin-left: 5px;
+    align-self: center;
+    margin-right: 25px;
+}
+
+.swirl {
+    margin-right: 10px;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+
+header .yellow {
+    margin-left: 4px;
+}
+
+.phoneNumber {
+    font-size: 25px;
+    align-self: center;
+}
+
+.separator {
+    background-color: #ff2e65;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    align-self: center;
+    margin: 0 8px;
+}
+
+.callBtn {
+    background-color: #f3f3f7;
+    color: #626770;
+    margin-right: 25px;
+}
+
+.loginBtn {
+    height: 0;
+    width: 15%;
+    align-self: center;
+    font-size: 16px;
+    color: #626770;
+}
+
+.cartBtn {
+    height: 40px;
+    width: 15%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f7d22d;
+}
+
+.cartBtn:hover {
+    opacity: inherit;
+    filter: brightness(0.9);
+    transition: 0.1s;
+}

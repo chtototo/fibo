@@ -1,0 +1,82 @@
+footer {
+    display: flex;
+    padding: 3vw 0;
+    justify-content: space-between;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.wallets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.socialLink {
+    padding: 10px 20px;
+    border: solid 1px #dbdbdb;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLinks {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.socialLink:nth-child(7) {
+    grid-column: span 2;
+}
+
+.socialLink:hover {
+    opacity: inherit;
+    filter: brightness(0.9);
+}
+
+footer .phoneNumber {
+    align-self: start;
+}
+
+.footer-row {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.footer-info {
+    margin: 30px 0;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    color: #6b6b6b;
+}
+
+.address {
+    grid-row: span 2;
+}
+
+footer p {
+    color: #6b6b6b;
+}
