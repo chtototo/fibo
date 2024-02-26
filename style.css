@@ -66,6 +66,43 @@ h2 {
     font-weight: 800;
 }
 
+.chel, 
+.baba,
+.ppf {
+    position: absolute;
+}
+
+.chel,
+.baba {
+    height: 30vw;
+    width: 20vw;
+}
+
+.chel {
+    left: -21vw;
+    top: 0;
+    transform: rotateZ(20deg);
+}
+
+.baba {
+    width: 25vw;
+    right: -23vw;
+    bottom: -100px;
+    transform: rotateY(180deg);
+}
+
+.float-image {
+    height: 100%;
+    width: 100%;
+}
+
+.ppf {
+    bottom: 0;
+    right: 0;
+    height: 10vw;
+    width: 25vw;
+}
+
 .newProducts {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -111,9 +148,10 @@ h2 {
 .content {
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
     position: relative;
     margin: 0 13vw;
+    box-sizing: border-box;
+    padding: 40px;
 }
 
 .newIcon {

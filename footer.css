@@ -38,8 +38,10 @@ footer {
     gap: 10px;
 }
 
-.socialLink:nth-child(7) {
+.socialLink:nth-last-child(1) {
     grid-column: span 2;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .socialLink:hover {
@@ -49,6 +51,7 @@ footer {
 
 footer .phoneNumber {
     align-self: start;
+    font-weight: 700;
 }
 
 .footer-row {
@@ -62,6 +65,12 @@ footer .phoneNumber {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    font-weight: 700;
+}
+
+.footer-row p {
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .socials {
@@ -72,6 +81,17 @@ footer .phoneNumber {
     row-gap: 10px;
     column-gap: 10px;
     color: #6b6b6b;
+}
+
+.socials * {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-col > p {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .address {

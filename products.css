@@ -1,8 +1,8 @@
 .products {
     display: grid;
     margin-top: 30px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1%;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
     margin-bottom: 40px;
 }
 
@@ -54,7 +54,7 @@
     background-color: #F7D22D;
     border-radius: 8px;
     color: #fff;
-    width: 126px;
+    width: 50%;
     height: 35px;
     font-size: 14px;
     font-weight: 700;
