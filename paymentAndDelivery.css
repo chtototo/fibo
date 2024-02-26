@@ -1,30 +1,26 @@
 .paymentAndDelivery {
     background-color: #E3ECF5;
-    position: absolute;
-    bottom: 0;
-    left: -10vw;
     width: 100vw;
     height: 35vw;
     padding: 3vw 10vw;
     padding-bottom: 0;
     box-sizing: border-box;
-    margin-bottom: 5px;
+    margin: 40px 0 5px 0;
 }
 
 .payment-imageContainer {
-    width: 80px;
-    position: absolute;
-    top: -40%;
+    width: 70px;
     background-color: #fff;
     box-sizing: border-box;
     padding: 10px;
-    padding-bottom: 0;
     border-radius: 1000px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    border: solid 0px;
     display: flex;
     justify-content: center;
+    transform: translateY(-3.5vw);
+}
+
+.payment-image {
+    width: 85%;
 }
 
 .payment-container {
@@ -35,24 +31,27 @@
     height: 70%;
 }
 
+.paymentInfo p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    transform: translateY(-3.5vw);
+}
+
 .paymentInfo {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    padding: 0 20px;
-    padding-top: 10px;
+    padding: 15px 20px;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 14px;
     text-align: center;
 }
 
 .map {
     background-color: #fff;
-    /* height: 15vw;
-    width: 100%; */
     border-radius: 15px;
     box-sizing: border-box;
     grid-row: span 4;

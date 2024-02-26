@@ -1,10 +1,4 @@
 @media (max-width: 1245px) {
-    nav {
-        display: none;
-    }
-    select {
-        display: block;
-    }
     header {
         font-size: 10px;
     }
@@ -13,13 +7,6 @@
     }
     .map {
         height: 10vw;
-    }
-    /* .payment-container {
-        grid-template-rows: repeat(1,auto);
-        height: fit-content;
-    } */
-    .paymentInfo {
-        height: 100px;
     }
     .paymentAndDelivery {
         height: fit-content;

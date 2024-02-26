@@ -27,9 +27,9 @@
 }
 
 .product-name {
-    font-weight: 900;
-    font-size: 22px;
-    color: #6b6b6b;
+    font-weight: 800;
+    font-size: 24px;
+    color: #797979;
     margin-bottom: 3%;
     margin-top: 7%;
 }
@@ -37,17 +37,29 @@
 .product-description {
     font-size: 13px;
     font-weight: 500;
-    color: #6b6b6b;
+    color: #686466;
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 22px;
+    color: #231F20;
+}
+
+.rub {
+    margin-left: 8px;
 }
 
 .addToCartBtn {
-    background-color: #f7d22d;
-    border-radius: 10px;
+    background-color: #F7D22D;
+    border-radius: 8px;
     color: #fff;
-    width: 115px;
+    width: 126px;
     height: 35px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .addToCartBtn:hover {
-    color: #000;
+    color: #473E43;
 }

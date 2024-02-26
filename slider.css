@@ -1,21 +1,22 @@
 .sliderContainer {
-    width: 140vw;
-    position: absolute;
-    top: 150px;
-    margin: 0 -30vw;
-    /* display: flex;
-    justify-content: space-between; */
     display: grid;
+    width: 150vw;
+    transform: translateX(-25vw);
     grid-template-columns: repeat(4,1fr);
-    gap: 1vw;
-    /* overflow: hidden; */
+    gap: 2vw;
 } 
 
 .slide {
-    height: 400px;
-    /* width: 34vw; */
+    height: 100%;
     width: 100%;
-    border-radius: 25px;
+    object-fit: cover;
+}
+
+.slide-container {
+    height: 23vw;
+    width: 100%;
+    border-radius: 13px;
+    overflow: hidden;
 }
 
 .sliderControl {
